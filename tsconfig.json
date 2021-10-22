@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"outDir": "./build/",
+		"sourceMap": true,
+		"target": "es5",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"paths": {
+			"assets": [
+				"src/assets/*"
+			],
+			"scss": [
+				"src/scss/*"
+			],
+			"utils": [
+				"src/utils/*"
+			],
+			"jdbx": [
+				"src/jdbx/*"
+			],
+			"app": [
+				"src/app/*"
+			],
+		},
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"isolatedModules": true,
+		"strict": true,
+		"esModuleInterop": true
+	},
+	"include": [
+		"src/**/*"
+	]
+}

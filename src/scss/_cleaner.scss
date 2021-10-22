@@ -1,0 +1,17 @@
+%font {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+@mixin cleaner {
+	*,
+	*::before,
+	*::after {
+		@extend %font;
+		box-sizing: border-box;
+		font-family: 'Roboto Mono', monospace;
+		font-weight: normal;
+		margin: 0;
+		padding: 0;
+	}
+}
