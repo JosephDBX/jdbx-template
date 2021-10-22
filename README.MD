@@ -1,7 +1,7 @@
 # React Boilerplate
-Implementing hexagonal architecture
-## Infrastructure tools
-- React Router DOM
-- Redux Toolkit
-- Tailwindcss
-- React Loader Spinner
+
+## Features
+- Webpack 5
+- SASS
+- React
+- TypeScript
